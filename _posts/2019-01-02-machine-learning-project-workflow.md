@@ -1,8 +1,9 @@
 ---
 title: "Machine Learning Project Workflow"
+date: 2019-02-02T08:08:50-04:00
 excerpt_separator: "<!--more-->"
 categories:
-  - Post Formats
+  - Machine Learning
 tags:
   - project workflow
   - machine learning
