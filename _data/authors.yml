@@ -1,0 +1,10 @@
+# Authors
+
+Niranjan Agaram:
+  name: Niranjan Agaram
+  picture: /images/bio-photo-2.jpg
+  twitter: "@NiranjanAgaram"
+  links:
+    - title: Twitter
+      url: https://twitter.com/NiranjanAgaram
+      icon: fab fa-twitter-square
