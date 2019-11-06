@@ -1,138 +1,73 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title:            Niranjan Agaram
+description:      Data Scientist | Technopile | Alturist
+logo:             Niranjan Agaram website1.png
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+disqus_shortname:
+#Comment out url when working locally to resolve base urls correctly
+url:              http://niranjanagaram.com
 
-# theme: jekyll-theme-so-simple
-remote_theme: mmistakes/so-simple-theme
+# Owner/author information
+owner:
+  name:           Niranjan Agaram
+  avatar:         afro3.jpg
+  email:          niranjanagaram@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  facebook:       
+  github:
+  stackexchange:
+  linkedin:       
+  instagram:
+  flickr:
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+  youtube:        
 
-locale: en-US
-title: "Niranjan Agaram"
-description: "Data Scientist || Technophile || Altruist"
-baseurl: ""
-url: #"https://niranjanagaram.github.io"
-logo: "/images/Niranjan Agaram.png"
-date_format: "%B %-d, %Y"
-read_time: true
-words_per_minute: # 200
-mathjax: true
-google_fonts:
-  - name: "Source Sans Pro"
-    weights: "400,400i,700,700i"
-  - name: "Lora"
-    weights: "400,400i,700,700i"
-google_analytics: "UA-126192209-1" #"UA-2011187-2"
-disqus:
-  shortname: "niranjanagaram" #"sosimpletheme"
-twitter:
-  username: "NiranjnaAgaram"
-google_site_verification: # "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y"
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
 
-# Liquid
-liquid:
-  error_mode: strict
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Blog
+    url: /articles
+  - title: Bio
+    url: /about
+  - title: Misc
+    url: /misc
+  - title: Media
+    url: /media
+  - title: Projects
+    url: /projects
+  - title: Contact
+    url: /contact
+    external: true
 
-# Build settings
-permalink: /:categories/:title/
-markdown: kramdown
-feed:
-  path: atom.xml
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Copenhagen
+future:      true
+markdown:    kramdown
 
-# Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
-paginate_path: /page:num/
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
 
-# Search
-search_full_content: false
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
-# Taxonomy pages
-category_archive_path: "/categories/#"
-tag_archive_path: "/tags/#"
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-redirect-from
-
-# Collections
-collections:
-  recipes:
-    output: true
-    permalink: /:collection/:path/
-
-# Front Matter Defaults
-defaults:
-  # Post defaults
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comments: true
-      share: true
-  # Recipe defaults
-  - scope:
-      path: "_portfolio"
-      type: portfolio
-    values:
-      layout: post
-      comments: true
-      share: true
-
-# Site Author
-author:
-  name: Niranjan Agaram
-  picture: /images/NiranjanAgaram.png
-  email: niranjanagaram@gmail.com
-  twitter: NiranjanAgaram
-  links:
-    - title: Twitter
-      url: https://twitter.com/NiranjanAgaram
-      icon: fab fa-twitter-square
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/niranjanagaram/
-      icon: fab fa-linkedin
-    - title: GitHub
-      url: https://github.com/NiranjanAgaram
-      icon: fab fa-github-square
-
-
-# Footer Links
-footer_links:
-  - title: Twitter
-    url: https://twitter.com/NiranjanAgaram
-    icon: fab fa-twitter-square
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/niranjanagaram/
-    icon: fab fa-linkedin
-  - title: GitHub
-    url: https://github.com/NiranjanAgaram
-    icon: fab fa-github-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "vendor"]

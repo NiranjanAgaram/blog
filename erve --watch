@@ -1,0 +1,81 @@
+commit ac00b5a87bc51df11ab5a9640db923574b57ef67
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Tue Aug 27 09:43:30 2013 +0200
+
+    url changed to aniarybacka.com
+
+commit e253ec2f75ecdf3fde3aa945c010b4a40cb6ee61
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Mon Aug 26 14:46:09 2013 +0200
+
+    CNAME set
+
+commit 36e2a466d5da39e7e9077f736238ac930dc88fbb
+Author: Ania Rybacka <ann.rybacka@gmail.com>
+Date:   Thu Aug 8 14:43:48 2013 +0200
+
+    domena dodana
+
+commit ebf70087c706b997e84d3fa040c60a5c852a75aa
+Merge: 5efc297 288fc7a
+Author: Ania Rybacka <ann.rybacka@gmail.com>
+Date:   Thu Aug 8 14:37:58 2013 +0200
+
+    Merge branch 'master' of https://github.com/jakubnabrdalik/aniarybackawebsite
+    
+    Conflicts:
+    	README.md
+
+commit 5efc297df9e823dcfccd245b8fb29ab7b391b803
+Author: aniarybacka <ann.rybacka@gmail.com>
+Date:   Thu Aug 8 05:34:26 2013 -0700
+
+    Initial commit
+
+commit 288fc7ac4a0fca80e7a41c83294270f05b0c94ba
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Thu Aug 8 14:22:51 2013 +0200
+
+    change3
+
+commit 0aad1926396d2bfd9a5f22e9a6aef732b65ab15b
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Thu Aug 8 14:16:26 2013 +0200
+
+    test of git-cola
+
+commit 7fc38058131a9df5a6667f9c33cac25373d2d1e1
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Thu Aug 8 14:14:32 2013 +0200
+
+    test of git gui
+
+commit 450998fc448894ac28222c42e6bf07772f0925bd
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Thu Aug 8 13:20:18 2013 +0200
+
+    youtube logo + h1 font
+
+commit 747947cb12d2b93231774815b84ef4e8ce0352dd
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Thu Aug 8 12:52:04 2013 +0200
+
+    contact filled, concerts added
+
+commit 2bb7cbdeee57dc45455c2222b8a670425d7c7dab
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Thu Aug 8 12:22:34 2013 +0200
+
+    media, press, contact (empty)
+
+commit e6703eb3b1b74a689de921180918ad4092c1e5bc
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Thu Aug 8 10:47:22 2013 +0200
+
+    first setup based on so simple theme
+
+commit 7737bc2a7c213f4552e0659bc07c96cfea668e9d
+Author: Jakub Nabrdalik <jakubn@gmail.com>
+Date:   Thu Aug 8 01:32:34 2013 -0700
+
+    Initial commit
