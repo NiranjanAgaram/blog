@@ -1,14 +1,24 @@
 ---
-title: "Machine Learning Project Workflow"
-date: 2019-02-02T08:08:50-04:00
-excerpt_separator: "<!--more-->"
-categories:
-  - Machine Learning
-tags:
-  - project workflow
-  - machine learning
-  - data science
+layout: post
+title: "Machine Learning Workflow"
+description: welcome
+modified: 2019-01-01
+category: articles
+tags: [ML Workflow, Machine Learning]
+comments: true
 ---
+
+<!-- ---
+layout: post
+title: "New webpage!"
+description: welcome
+modified: 2019-01-01
+category: articles
+tags: [ - project workflow
+        - machine learning
+        - data science]
+comments: true
+--- -->
 
 Given a data science / machine learning project, what steps should we follow? Here's how I would tackle it:
 
@@ -23,7 +33,6 @@ Given a data science / machine learning project, what steps should we follow? He
 <strong>Set up a single-number metric:</strong> What it means to be successful - high accuracy, lower error, or bigger AUC - and how do you measure it? The metric has to align with high-level goals, most often the success of your business. Set up a single-number against which all models are measured.<br/>
 <strong>Do exploratory data analysis (EDA):</strong> Play with the data to get a general idea of data type, distribution, variable correlation, facets etc. This step would involve a lot of plotting.<br/>
 <strong>Partition data:</strong> Validation set should be large enough to detect differences between the models you are training; test set should be large enough to indicate the overall performance of the final model; training set, needless to say, the larger the merrier.<br/>
-
 <strong>Preprocess:</strong> This would include data integration, cleaning, transformation, reduction, discretization and more.<br/>
 <strong>Engineer features:</strong> Coming up with features is difficult, time-consuming, requires expert knowledge. Applied machine learning is basically feature engineering. This step usually involves feature selection and creation, using domain knowledge. Can be minimal for deep learning projects.<br/>
 <strong>Develop models:</strong> Choose which algorithm to use, what hyperparameters to tune, which architecture to use etc.<br/>
