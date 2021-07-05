@@ -1,0 +1,16 @@
+current directory: /mnt/g/2019/Nov_2019/aniarybacka.github.io-master/vendor/bundle/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby2.4 -r ./siteconf20191105-822-1rnx0sf.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/g/2019/Nov_2019/aniarybacka.github.io-master/vendor/bundle/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /mnt/g/2019/Nov_2019/aniarybacka.github.io-master/vendor/bundle/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /mnt/g/2019/Nov_2019/aniarybacka.github.io-master/vendor/bundle/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20191105-822-qwbmim
